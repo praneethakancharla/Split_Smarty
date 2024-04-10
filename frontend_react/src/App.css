@@ -1,0 +1,140 @@
+
+body {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  min-height: 100vh;
+  margin-left: 5rem;
+  line-height: 1rem;
+  overflow: auto; /* Enable scrolling */
+  background-attachment: fixed; /* Keep background fixed */
+}
+
+.content {
+  padding: 20px; /* Adjust padding to prevent content from being hidden behind the background */
+}
+
+.nav {
+  color: #444b59;
+}
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 2rem; /* Converted from 2% */
+}
+.li {
+  margin: 0 1rem; /* Converted from 0 1% */
+  padding: 0;
+}
+.footer {
+  background-color: #444b59;
+  height: 0.5rem; /* Converted from 1% */
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.page-head-1 {
+  font-size: 1.5rem; /* Converted from 500% */
+  font-family: 'Nunito', Arial, sans-serif;
+  color: #444b59;
+  margin-left: 27rem;
+  font-weight: bold;
+}
+.page-head-2 {
+  font-size: 5rem; /* Converted from 500% */
+  font-family: 'Nunito', Arial, sans-serif;
+  color: #000f73;
+  margin-left: 20rem;
+}
+.page-head-3 {
+  font-size: 0.9rem; /* Converted from 500% */
+  font-family: 'Nunito', Arial, sans-serif;
+  color: #444b59;
+  margin-left: 27.5rem;
+}
+/* Input Styles */
+input[type="text"],
+input[type="password"] {
+  width: 20rem; /* Converted from 25% */
+  font-family: 'Overpass', Arial, sans-serif;
+  font-size: 0.875rem; /* Converted from 14px */
+  padding: 0.5rem; /* Converted from 8px */
+  border: 0.0625rem solid #789ade; /* Converted from 1px */
+  border-radius: 1rem; /* Converted from 100px */
+  margin-left: 23rem;
+}
+/*buttons*/
+.universal-button {
+  background-color: #8699da; /* Change background color to purple */
+  color: white; /* Change text color to white */
+  font-weight: bold;
+  padding: 0.5rem 4rem; /* Increase padding for larger size */
+  font-size: 1.2rem; /* Increase font size for larger size */
+  border-radius: 5rem;
+}
+.universal-button-2 {
+  background-color: #8699da; /* Change background color to purple */
+  color: white; /* Change text color to white */
+  font-weight: bold;
+  padding: 1rem 1rem; /* Increase padding for larger size */
+  font-size: 1.2rem; /* Increase font size for larger size */
+  border-radius: 5rem;
+  margin-left: 20rem;
+  margin-top: -10rem;
+}
+
+.group-button {
+  background-color: none;
+  color: #444b59;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 0.5rem;
+  margin-left: 22rem; /* Align to the right */
+  display: block; /* Ensures full-width */
+  width: fit-content; /* Adjust width to content */
+  padding: 1rem; /* Adjusted padding for smaller screens */
+  border-radius: 2rem;
+  cursor: pointer;
+  text-align: center; /* Align text to the center */
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.group-button:hover {
+  background-color: none;
+}
+button {
+  color: #444b59;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  text-decoration: underline;
+}
+/* information to be displayed*/
+.normal-info {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.normal-info p {
+  margin-bottom: 2rem;
+  color: #444b59; /* Change color as needed */
+}
+/* In your App.css file or any other CSS file where you define styles */
+.expense-list li {
+  font-family: 'Times New Roman', Times, serif; /* Change the font family to whatever you prefer */
+  font-size: 1rem; 
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}

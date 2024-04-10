@@ -1,0 +1,188 @@
+{
+  "user": [
+    {
+      "user_id": 1,
+      "name": "Vaani",
+      "password": "123",
+      "self_describe": "mewo",
+      "email": "samp@asd",
+      "upi_id": "56",
+      "contact": "0978786",
+      "id": "743a"
+    },
+    {
+      "user_id": 2,
+      "name": "Shreya",
+      "password": "456",
+      "self_describe": "tytu",
+      "email": "poi@asd",
+      "upi_id": "78",
+      "contact": "5635678",
+      "id": "ee5f"
+    },
+    {
+      "user_id": 3,
+      "name": "Avyan",
+      "password": "789",
+      "self_describe": "huij",
+      "email": "opi@asd",
+      "upi_id": "899",
+      "contact": "568785678",
+      "id": "a388"
+    },
+    {
+      "id": "c524",
+      "user_id": 4,
+      "name": "nitu",
+      "password": "hui",
+      "self_describe": "jknjiuiu",
+      "email": "nitu@gmail.com",
+      "upi_id": "7657656",
+      "contact": "65767867867"
+    }
+  ],
+  "group": [
+    {
+      "group_id": 1,
+      "group_describe": "Group 1",
+      "id": "c03f"
+    },
+    {
+      "group_id": 2,
+      "group_describe": "Group 2",
+      "id": "f58b"
+    },
+    {
+      "group_id": 3,
+      "group_describe": "Group 3",
+      "id": "96d0"
+    }
+  ],
+  "members": [
+    {
+      "group_id": 1,
+      "member_id": 1,
+      "id": "b06a"
+    },
+    {
+      "group_id": 1,
+      "member_id": 2,
+      "id": "4724"
+    },
+    {
+      "group_id": 1,
+      "member_id": 3,
+      "id": "0ac5"
+    },
+    {
+      "group_id": 2,
+      "member_id": 1,
+      "id": "2420"
+    },
+    {
+      "group_id": 2,
+      "member_id": 3,
+      "id": "580e"
+    },
+    {
+      "group_id": 2,
+      "member_id": 4,
+      "id": "cb12"
+    }
+  ],
+  "expenses": [
+    {
+      "expense_id": 1,
+      "payer_id": 1,
+      "date_time": "2023-01-20T09:12",
+      "amount": 100,
+      "type": "travel",
+      "id": "2f4b"
+    },
+    {
+      "expense_id": 2,
+      "payer_id": 1,
+      "date_time": "2023-02-20T21:12",
+      "amount": 200,
+      "type": "food",
+      "id": "2fe6"
+    },
+    {
+      "expense_id": 3,
+      "payer_id": 4,
+      "date_time": "2023-03-20T03:12",
+      "amount": 5000,
+      "type": "accomodation",
+      "id": "2fe6"
+    },
+    {
+      "id": "976f",
+      "expense_id": 4,
+      "payer_id": 3,
+      "amount": 500,
+      "date_time": "2024-05-12T12:45",
+      "type": "party"
+    },
+    {
+      "id": "40ee",
+      "expense_id": 5,
+      "payer_id": 1,
+      "amount": 900,
+      "date_time": "2022-12-09T12:00",
+      "type": "food"
+    }
+  ],
+  "group_expenses": [
+    {
+      "group_id": 1,
+      "expense_id": 1,
+      "id": "7b65"
+    },
+    {
+      "group_id": 1,
+      "expense_id": 2,
+      "id": "d403"
+    },
+    {
+      "group_id": 2,
+      "expense_id": 3,
+      "id": "aeab"
+    },
+    {
+      "id": "2d7b",
+      "group_id": 1,
+      "expense_id": 4
+    },
+    {
+      "id": "a3de",
+      "group_id": 1,
+      "expense_id": 5
+    }
+  ],
+  "split": [
+    {
+      "expense_id": 1,
+      "from_id": 1,
+      "to_id": 2,
+      "shared_expense": 50,
+      "isSettled": 1,
+      "id": "f085"
+    },
+    {
+      "expense_id": 2,
+      "from_id": 1,
+      "to_id": 2,
+      "shared_expense": 100,
+      "isSettled": 1,
+      "id": "6eba"
+    },
+    {
+      "expense_id": 3,
+      "from_id": 1,
+      "to_id": 3,
+      "shared_expense": 10000,
+      "isSettled": 0,
+      "id": "82c3"
+    }
+  ]
+}
